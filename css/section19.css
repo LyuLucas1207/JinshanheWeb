@@ -1,0 +1,91 @@
+/* Reset and global styles */
+.section19 * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.section19 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 55vh;
+    background-color: #ffffff00;
+}
+.section19_shell {
+    width: 90vh;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1vh #fff solid;
+    box-shadow: 2vh 3vh 2vh 2vh rgba(0, 0, 0, 0.5);
+}
+.section19_images {
+    width: 300%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: transform 0.5s ease-in-out; /* 使用transform代替left */
+    will-change: transform; /* 提示浏览器进行优化 */
+}
+.section19_img {
+    width: 100%;
+    background-size: cover;
+    background-position: center; /* 中心定位背景图片 */
+}
+.section19_img:nth-child(1) {
+    background-image: url("../pic/data/p1/1.jpg");
+}
+.section19_img:nth-child(2) {
+    background-image: url("../pic/data/p3/4.jpg");
+}
+.section19_img:nth-child(3) {
+    background-image: url("../pic/data/p5/6.jpg");
+}
+.section19_min-images {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 2vh;
+    width: 40%;
+    z-index: 999;
+    right: 10%;
+}
+.section19_min {
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    border: solid rgba(255, 255, 255, 0.5) 5px;
+    background-position: center; /* 中心定位背景图片 */
+}
+.section19_min:nth-child(1) {
+    background-image: url("../pic/data/p1/1.jpg");
+}
+.section19_min:nth-child(2) {
+    background-image: url("../pic/data/p3/4.jpg");
+}
+.section19_min:nth-child(3) {
+    background-image: url("../pic/data/p5/6.jpg");
+}
+/* Media query for mobile devices */
+@media (max-width: 1008px) {
+    .section19_shell {
+        width: 40vw; /* 缩小整体宽度 */
+        height: 50vh; /* 缩小整体高度，保持比例 */
+    }
+
+    .section19_min-images {
+        width: 80%; /* 调整小图片宽度 */
+        justify-content: space-between;
+        
+    }
+    .section19_min {
+        width: 5vh; /* 调整小图片宽度 */
+        height: 5vh; /* 调整小图片高度 */
+    }
+}

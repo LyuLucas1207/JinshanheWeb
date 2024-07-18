@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>湖北蒲纤纺织科技有限公司</title>
+    <script src="./js/qrcode.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+<body>
+    <div id="qrcode"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            try {
+                var qrcode = new QRCode(document.getElementById("qrcode"), {
+                    text: "https://www.pqttec.com",
+                    width: 128,
+                    height: 128,
+                    colorDark: "#000000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+                console.log("QR Code generated successfully.");
+            } catch (e) {
+                console.error("Error generating QR Code: ", e);
+            }
+        });
+    </script>
+</body>
+</html>

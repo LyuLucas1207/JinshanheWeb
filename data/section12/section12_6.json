@@ -1,0 +1,20 @@
+{
+    "双面胶衬": [
+        {
+            "ID": 1,
+            "name": "白色切片",
+            "price":100,
+            "img": "pic/data/p6/1.jpg",
+            "description": "",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "白色未切",
+            "price": 200,
+            "img": "pic/data/p6/2.jpg",
+            "description": "",
+            "detailed_info": ""
+        }
+    ]
+}

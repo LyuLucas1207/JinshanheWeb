@@ -1,0 +1,173 @@
+.section32 {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* 使用视口高度 */
+    overflow: hidden;
+    /* 隐藏溢出内容的滚动条 */
+    /* 其他样式 */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.section32::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari and Opera */
+}
+
+
+.section32_main {
+    position: static;
+    left: -1%;
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    height: 97vh;
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+.section32_content {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    overflow: hidden;
+    transform: translateY(-10%) translateX(-20%);
+}
+
+.section32_card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    transition: transform .8s ease-in-out;
+}
+
+.section32_card-time {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.section32_card-title {
+    font-size: 5vh;
+    font-weight: 500;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 1vh;
+}
+
+.section32_card-passage {
+    font-size: 2vh;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.section32_clock {
+    height: 120vh;
+    /* 纵横比为1:1 */
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    /* right: -35%; */
+    right: 75%;
+    top: -15%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: 3vh solid yellow;
+}
+
+
+@media (max-width: 100vh) {
+    .section32_clock {
+        right: -90%;
+    }
+}
+
+.section32_clock-table {
+    width: 96%;
+    height: 96%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transition: transform .8s ease-in-out;
+}
+
+.section32_invisible-table {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform-origin: 50% 50%;
+    position: absolute;
+}
+
+.section32_clock-thick {
+    width: 6%;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: vh;
+}
+
+.section32_clock-thick span {
+    font-size: 5vh;
+    position: absolute;
+    left: 140%;
+    top: calc(50% - 3vh);
+    color: #ffffff;
+    transform: rotate(-180deg);
+}
+
+.section32_clock-scale {
+    width: 4%;
+    height: 2px;
+    background-color: #ececec;
+    position: absolute;
+    top: calc(50% - .5px);
+    left: vh;
+}
+
+/* 手机端样式调整 */
+@media (max-width: 1000px) {
+    .section32_main {
+        left: 0;
+        margin-left: 10vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section32_card-passage{
+        font-size: 1.5vh;
+    }
+
+    .section32_content {
+        width: 100%;
+        height: 100%;
+        transform: translateY(0);
+        left: 0;
+    }
+
+    .section32_card {
+        width: 100%;
+        padding: 1vh;
+    }
+
+    .section32_card-time,
+    .section32_card-title {
+        font-size: 3vh;
+    }
+
+    .section32_clock {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+/* 初始状态设置 */
+.sec_appear {
+    transition: transform 2s ease;
+}
+
+/* 不同方向的滑入效果 */
+.sec_appear-slide-left {
+    transform: translateX(-100%);
+}
+
+.sec_appear-slide-right {
+    transform: translateX(100%);
+}
+
+.sec_appear-slide-up {
+    transform: translateY(100%);
+}
+
+/* 激活状态 */
+.sec_appear.active {
+    transform: translateX(0) translateY(0);
+}

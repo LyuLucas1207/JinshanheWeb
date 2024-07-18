@@ -1,0 +1,100 @@
+{
+    "弹力衬布": [
+        {
+            "ID": 1,
+            "name": "白色",
+            "price":100,
+            "img": "pic/data/p3/1.jpg",
+            "description": "型号6530",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "白色",
+            "price": 200,
+            "img": "pic/data/p3/2.jpg",
+            "description": "型号6550",
+            "detailed_info": ""
+        },
+        {
+            "ID": 3,
+            "name": "白色",
+            "price": 300,
+            "img": "pic/data/p3/3.jpg",
+            "description": "型号6575",
+            "detailed_info": ""
+        },
+        {
+            "ID": 4,
+            "name": "白色",
+            "price": 400,
+            "img": "pic/data/p3/4.jpg",
+            "description": "型号65100",
+            "detailed_info": ""
+        },
+        {
+            "ID": 5,
+            "name": "白色",
+            "price": 500,
+            "img": "pic/data/p3/5.jpg",
+            "description": "型号65200",
+            "detailed_info": ""
+        },
+        {
+            "ID": 6,
+            "name": "白色",
+            "price": 500,
+            "img": "pic/data/p3/6.jpg",
+            "description": "型号65300",
+            "detailed_info": ""
+        },
+        {
+            "ID": 7,
+            "name": "黑色",
+            "price": 600,
+            "img": "pic/data/p3/7.jpg",
+            "description": "型号6531",
+            "detailed_info": ""
+        },
+        {
+            "ID": 8,
+            "name": "黑色",
+            "price": 700,
+            "img": "pic/data/p3/8.jpg",
+            "description": "型号6551",
+            "detailed_info": ""
+        },
+        {
+            "ID": 9,
+            "name": "黑色",
+            "price": 800,
+            "img": "pic/data/p3/9.jpg",
+            "description": "型号6576",
+            "detailed_info": ""
+        },
+        {
+            "ID": 10,
+            "name": "黑色",
+            "price": 900,
+            "img": "pic/data/p3/10.jpg",
+            "description": "型号65101",
+            "detailed_info": ""
+        },
+        {
+            "ID": 11,
+            "name": "黑色",
+            "price": 1000,
+            "img": "pic/data/p3/11.jpg",
+            "description": "型号65201",
+            "detailed_info": ""
+        },
+        {
+            "ID": 12,
+            "name": "黑色",
+            "price": 1000,
+            "img": "pic/data/p3/12.jpg",
+            "description": "型号65301",
+            "detailed_info": ""
+        }
+    ]
+}

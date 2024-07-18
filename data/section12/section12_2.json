@@ -1,0 +1,84 @@
+{
+    "树脂衬布": [
+        {
+            "ID": 1,
+            "name": "白色",
+            "price":100,
+            "img": "pic/data/p2/1.jpg",
+            "description": "型号FB30",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "白色",
+            "price": 200,
+            "img": "pic/data/p2/2.jpg",
+            "description": "型号FB50",
+            "detailed_info": ""
+        },
+        {
+            "ID": 3,
+            "name": "白色",
+            "price": 300,
+            "img": "pic/data/p2/3.jpg",
+            "description": "型号FB75",
+            "detailed_info": ""
+        },
+        {
+            "ID": 4,
+            "name": "白色",
+            "price": 400,
+            "img": "pic/data/p2/4.jpg",
+            "description": "型号FB100",
+            "detailed_info": ""
+        },
+        {
+            "ID": 5,
+            "name": "白色",
+            "price": 500,
+            "img": "pic/data/p2/5.jpg",
+            "description": "型号FB200",
+            "detailed_info": ""
+        },
+        {
+            "ID": 6,
+            "name": "黑色",
+            "price": 600,
+            "img": "pic/data/p2/6.jpg",
+            "description": "型号FB31",
+            "detailed_info": ""
+        },
+        {
+            "ID": 7,
+            "name": "黑色",
+            "price": 700,
+            "img": "pic/data/p2/7.jpg",
+            "description": "型号FB51",
+            "detailed_info": ""
+        },
+        {
+            "ID": 8,
+            "name": "黑色",
+            "price": 800,
+            "img": "pic/data/p2/8.jpg",
+            "description": "型号FB76",
+            "detailed_info": ""
+        },
+        {
+            "ID": 9,
+            "name": "黑色",
+            "price": 900,
+            "img": "pic/data/p2/9.jpg",
+            "description": "型号FB101",
+            "detailed_info": ""
+        },
+        {
+            "ID": 10,
+            "name": "黑色",
+            "price": 1000,
+            "img": "pic/data/p2/10.jpg",
+            "description": "型号FB201",
+            "detailed_info": ""
+        }
+    ]
+}

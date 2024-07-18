@@ -1,0 +1,120 @@
+.section6 {
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section6 h1 {
+    margin: 0%;
+    padding: 0px;
+    font-family: 'HongLeiXingShuJianTi';
+    font-size: 3.5vh;
+    /*for chinese browser*/
+    font-size: calc(3vw + 2vh);
+}
+.section6 h2 {
+    font-size: 2.5vh;
+    /*for chinese browser*/
+    font-size: calc(2vw + 1.5vh);
+    
+}
+
+
+.section6 p {
+    margin: 0%;
+    padding: 0px;
+    font-family: 'HongLeiXingShuJianTi';
+    font-size: 1.8vh;
+    /*for chinese browser*/
+    font-size: calc(1.5vw + 1vh);
+    color: #2f2f2f;
+}
+
+.section6_btn {
+    /* background: rgba(255, 255, 255, 0.992); */
+    display: flex;
+}
+
+
+.section6_block {
+    margin-top: 2vh;
+    width: 9.5vh;
+    /*for chinese browser*/
+    width: calc(1vw + 9vh);
+    font-size: 1.6vh;
+    /*for chinese browser*/
+    font-size: calc(0.3vw + 1.3vh);
+    text-align: center;
+    line-height: 4vh;
+    border: 1px solid black;
+}
+
+.section6_block a {
+    text-decoration: none;
+    border: none;
+    /* remove the border */
+    outline: none;
+    /* remove the outline */
+    background: none;
+    /* remove the background */
+}
+
+.section6_btn .block1 {
+    background-color: rgba(13, 13, 13, 0.979);
+    margin-right: 2vh;
+
+}
+
+.section6_btn .block1 a {
+    color: rgb(220, 220, 220);
+}
+
+.section6_btn .block2 {
+    background-color: rgba(251, 251, 251, 0.979);
+    margin-left: 2vh;
+}
+
+.section6_btn .block2 a {
+    color: rgb(5, 5, 5);
+}
+
+.section6_btn .block2:hover {
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid rgb(17, 17, 17);
+}
+
+.section6_btn .block2:hover a {
+    color: rgb(238, 238, 238);
+}
+
+.section6_btn .block1:hover {
+    cursor: pointer;
+    background-color: rgb(249, 251, 252);
+    border: 1px solid rgb(249, 251, 252);
+}
+
+.section6_btn .block1:hover a {
+    color: rgb(13, 13, 13);
+}
+
+
+.section6_img {
+    /* margin: 2.2vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section6_img img {
+    /* margin-left: 5%;
+    margin-right: 5%;    */
+
+    /* max-width: 90%;         
+    max-height: 80%;*/
+    width: 90vw;
+    object-fit: contain;
+}

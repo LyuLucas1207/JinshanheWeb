@@ -1,0 +1,81 @@
+.section7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;/*for chinese browser*/
+    margin-top: calc(9vw + 7vh);
+}
+
+.section7_block {
+    flex: 1; /* 使文本和图片块占用相同的空间 */
+    display: flex;
+    width: 50vw;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.section7_block>img{
+    height: 64vh;/*for chinese browser*/
+    height: calc(8vw + 60vh);
+    width: 64vh;/*for chinese browser*/
+    width: calc(8vw + 60vh);
+    /* width: 90%; */
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0% 10% 0% 10%;
+}
+
+.section7_outer{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 0% 10%; /* 上右下左 */
+}
+
+.section7_text {
+    display: flex;
+    flex-direction: column;
+    justify-content:top;/* 垂直居中 */
+    align-items: center;/* 水平居中 */
+}
+.section7_text h1{
+    margin-top: 2vh;/*for chinese browser*/
+    margin-top: calc(3vw + 1vh);
+    font-size: 3vh;/*for chinese browser*/
+    font-size: calc(2vw + 2vh);
+}
+.section7_text p{
+    margin: 0%;
+    font-size: 3vh;
+    color: #2f2f2f;
+    padding: 0% 10% 0% 10%; /* 上右下左 */
+}
+
+
+
+
+.section7_textInner{
+    display: flex;
+    flex-direction: row;
+}
+
+.section7_textInner_block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    /* margin-left: 10%; */
+}
+
+
+.section7_textInner_block h2{
+    margin-top: 4vh;/*for chinese browser*/
+    margin-top: calc(6vw + 2vh);
+    font-size: 2vh;/*for chinese browser*/
+    font-size: calc(2vw + 1vh);
+}
+.section7_textInner_block p{
+    margin: 0%;
+    font-size: 2vh;
+    color: #2f2f2f;
+}

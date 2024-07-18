@@ -1,0 +1,187 @@
+{
+    "Profiles": [
+        {
+            "name": "小明",
+            "position": "前端工程师",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (1).jpg",
+            "description": "小明是一名前端工程师，他热爱编程，喜欢研究新技术，他的梦想是成为一名全栈工程师。",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Vue",
+                "Node.js"
+            ],
+            "contact": [
+                {
+                    "type": "email",
+                    "value": "xiaoming@gmail.com"
+                },
+                {
+                    "type": "phone",
+                    "value": "1234567890"
+                },
+                {
+                    "type": "wechat",
+                    "value": "xiaoming"
+                }
+            ]
+        },
+        {
+            "name": "小红",
+            "position": "后端工程师",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (2).jpg",
+            "description": "小红是一名后端工程师，她热爱编程，喜欢研究新技术，她的梦想是成为一名架构师。",
+            "skills": [
+                "Java",
+                "Spring",
+                "Spring Boot",
+                "MyBatis",
+                "MySQL",
+                "Redis"
+            ],
+            "contact": [
+                {
+                    "type": "phone",
+                    "value": "1234567890"
+                },
+                {
+                    "type": "wechat",
+                    "value": "xiaohong"
+                }
+            ]
+        },
+        {
+            "name": "小刚",
+            "position": "测试工程师",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (3).jpg",
+            "description": "小刚是一名测试工程师，他热爱编程，喜欢研究新技术，他的梦想是成为一名测试专家。",
+            "skills": [
+                "Java",
+                "Python",
+                "Selenium",
+                "Appium",
+                "JMeter",
+                "Jenkins"
+            ],
+            "contact": [
+                {
+                    "type": "email",
+                    "value": "xiaogang@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "小李",
+            "position": "运维工程师",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (4).jpg",
+            "description": "小李是一名运维工程师，他热爱编程，喜欢研究新技术，他的梦想是成为一名DevOps工程师。",
+            "skills": [
+                "Linux",
+                "Shell",
+                "Docker",
+                "Kubernetes",
+                "Jenkins",
+                "Prometheus"
+            ],
+            "contact": [
+                {
+                    "type": "phone",
+                    "value": "1234567890"
+                },
+                {
+                    "type": "wechat",
+                    "value": "xiaoli"
+                }
+            ]
+        },
+        {
+            "name": "小张",
+            "position": "产品经理",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (5).jpg",
+            "description": "小张是一名产品经理，他热爱编程，喜欢研究新技术，他的梦想是成为一名产品总监。",
+            "skills": [
+                "产品设计",
+                "需求分析",
+                "原型设计",
+                "用户调研",
+                "数据分析",
+                "项目管理"
+            ],
+            "contact": [
+                {
+                    "type": "phone",
+                    "value": "1234567890"
+                },
+                {
+                    "type": "wechat",
+                    "value": "xiaozhang"
+                }
+            ]
+        },
+        {
+            "name": "小王",
+            "position": "UI设计师",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (6).jpg",
+            "description": "小王是一名UI设计师，他热爱编程，喜欢研究新技术，他的梦想是成为一名UX设计师。",
+            "skills": [
+                "Photoshop",
+                "Illustrator",
+                "Sketch",
+                "Axure",
+                "Zeplin",
+                "InVision"
+            ],
+            "contact": [
+                {
+                    "type": "RedBook",
+                    "value": "xiaowang"
+                },
+                {
+                    "type": "wechat",
+                    "value": "xiaowang"
+                },
+                {
+                    "type": "phone",
+                    "value": "1234567890"
+                },
+                {
+                    "type": "QQ",
+                    "value": "123456789"
+                }
+            ]
+        },
+        {
+            "name": "小赵",
+            "position": "运营专员",
+            "duration": "2016-2018",
+            "image": "./pic/avatar/avatar (7).jpg",
+            "description": "小赵是一名运营专员，他热爱编程，喜欢研究新技术，他的梦想是成为一名运营经理。",
+            "skills": [
+                "数据分析",
+                "用户运营",
+                "内容运营",
+                "活动策划",
+                "社群运营",
+                "品牌推广"
+            ],
+            "contact": [
+                {
+                    "type": "phone",
+                    "value": "1234567890"
+                },
+                {
+                    "type": "wechat",
+                    "value": "xiaozhao"
+                }
+            ]
+        }
+    ]
+}

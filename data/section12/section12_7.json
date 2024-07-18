@@ -1,0 +1,92 @@
+{
+    "彩色衬布": [
+        {
+            "ID": 1,
+            "name": "一页彩色集",
+            "price":100,
+            "img": "pic/data/p7/1.jpg",
+            "description": "001-030",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "二页彩色集",
+            "price":100,
+            "img": "pic/data/p7/2.jpg",
+            "description": "031-060",
+            "detailed_info": ""
+        },
+        {
+            "ID": 3,
+            "name": "三页彩色集",
+            "price":100,
+            "img": "pic/data/p7/3.jpg",
+            "description": "061-090",
+            "detailed_info": ""
+        },
+        {
+            "ID": 4,
+            "name": "四页彩色集",
+            "price":100,
+            "img": "pic/data/p7/4.jpg",
+            "description": "091-120",
+            "detailed_info": ""
+        },
+        {
+            "ID": 5,
+            "name": "五页彩色集",
+            "price":100,
+            "img": "pic/data/p7/5.jpg",
+            "description": "121-150",
+            "detailed_info": ""
+        },
+        {
+            "ID": 6,
+            "name": "六页彩色集",
+            "price":100,
+            "img": "pic/data/p7/6.jpg",
+            "description": "151-180",
+            "detailed_info": ""
+        },
+        {
+            "ID": 7,
+            "name": "七页彩色集",
+            "price":100,
+            "img": "pic/data/p7/7.jpg",
+            "description": "181-210",
+            "detailed_info": ""
+        },
+        {
+            "ID": 8,
+            "name": "八页彩色集",
+            "price":100,
+            "img": "pic/data/p7/8.jpg",
+            "description": "211-240",
+            "detailed_info": ""
+        },
+        {
+            "ID": 9,
+            "name": "九页彩色集",
+            "price":100,
+            "img": "pic/data/p7/9.jpg",
+            "description": "241-270",
+            "detailed_info": ""
+        },
+        {
+            "ID": 10,
+            "name": "十页彩色集",
+            "price":100,
+            "img": "pic/data/p7/10.jpg",
+            "description": "271-300",
+            "detailed_info": ""
+        },
+        {
+            "ID": 11,
+            "name": "十一页彩色集",
+            "price":100,
+            "img": "pic/data/p7/11.jpg",
+            "description": "301-330",
+            "detailed_info": ""
+        }
+    ]
+}

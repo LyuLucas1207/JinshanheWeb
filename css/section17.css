@@ -1,0 +1,223 @@
+.section17 {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.section17::-webkit-scrollbar {
+    display: none;
+}
+
+.section17_shell {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section17_header {
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    transition: clip-path 0.5s ease;
+    position: relative;
+}
+
+.section17_header_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../pic/general/17_headerTop.jpeg);
+    background-size: cover;
+    /*图片居中*/
+    background-position: center;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+@media screen and (max-width: 1000px){
+    .section17_header {
+        height: 38vh;
+    }
+    
+}
+
+.section17_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.section17_main h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.section17_main span {
+    padding: 0 100px;
+    font-size: 30px;
+}
+
+.section17 p {
+    font-family: 'YouSheYuFeiTeJianKangTi';
+    font-size: 2.5vh;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.section17 p.credits {
+    font-style: italic;
+    text-indent: 0 !important;
+    margin: 1rem 0;
+}
+
+.section17 p a {
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+}
+
+@supports (font-variant-caps: small-caps) {
+    .section17_multicol:first-of-type p:first-of-type {
+        font-variant-caps: small-caps;
+    }
+}
+
+.section17 p:not(:first-of-type) {
+    text-indent: 1.4rem;
+}
+
+.section17_multicol {
+    column-count: 4;
+    column-gap: 2rem;
+}   
+
+.section17_multicol+img {
+    margin: 2rem 0;
+}
+
+.section17 article {
+    width: 80%;
+    margin: 0 auto 4rem;
+}
+
+.section17 article img {
+    width:30%;
+    object-fit: cover;
+    display: block; /* 确保图片是块级元素 */
+    margin: 5vh 0vh 5vh 0vh;/* up right down left */
+    justify-content: center;
+    align-items: center;
+}
+
+.section17 article img:first-child{
+    margin-left: auto;
+}
+
+.section17 article img:last-child{
+    margin-right: auto;
+}
+
+
+.section17_imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section17 article header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.section17 article h1 {
+    margin-top: 0;
+    font-size: 8vh;
+}
+
+.section17 article h2 {
+    break-after: column;
+    font-size: 4vh;
+}
+
+.section17 h1,
+h2 {
+    font-family: 'YouSheYuFeiTeJianKangTi';
+}
+
+@media screen and (max-width: 1000px){
+    .section17 article h1 {
+        margin-top: 0;
+        font-size: 3vh;
+    }
+    
+    .section17 article h2 {
+        break-after: column;
+        font-size: 2vh;
+    }
+
+    .section17 article p{
+        font-size: 1.5vh;
+    }
+
+    .section17 article img {
+        width: 35%;
+    }
+    
+}
+
+@media all and (max-width: 1600px) {
+    .section17_multicol {
+        column-count: 3;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .section17_multicol {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width:800px) {
+    .section17 article h2 {
+        break-after: avoid;
+    }
+
+    .section17_multicol {
+        column-count: 1;
+    }
+}
+
+@media all and (max-width:600px) {
+    .section17 body {
+        margin: 0;
+    }
+
+    .section17 article {
+        width: 100%;
+    }
+
+    .section17_multicol {
+        padding: 0 1rem;
+    }
+
+    .section17 article header {
+        margin-bottom: 2.5rem;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .section17 h1 {
+        margin-bottom: 0;
+    }
+}

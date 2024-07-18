@@ -1,0 +1,135 @@
+.section33{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section33_header{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.section33_header h1 {
+    font-size: 4vw;
+    margin: 0;
+}
+
+.section33_header p {
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 5vw;
+}
+
+.section33_devices{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section33_device_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section33_device_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section33_device_info h2 {
+    font-size: 3vw;
+}
+
+.section33_device_info h2 span {
+    font-size: 2vw;
+}
+
+.section33_device_info p {
+    font-size: 1.5vw;
+}
+
+.section33_device_info h2 {
+    margin: 1vw 0;
+}
+
+.section33_device_info h2 span {
+    margin: 1vw;
+    font-weight: 400;
+}
+
+.section33_device_info p {
+    margin: 0.5vw 0vw;
+}
+
+.section33_device_pic {
+    margin: 0.5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 15px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /*设置四周阴影*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 -4px 8px rgba(0, 0, 0, 0.1), 4px 0 8px rgba(0, 0, 0, 0.1), -4px 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.section33_device_pic img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/*点击图片放大单独显示在页面中*/
+
+
+/* 响应式布局 */
+@media (max-width: 1008px) {
+    .section33_device_pic {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .section33_device_pic img {
+        height:200px;
+
+    }
+    .section33_header h1 {
+        font-size: 4vh;
+        margin: 0;
+    }
+
+    .section33_header p {
+        font-size: 2.5vh;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+
+    .section33_device_info h2 {
+        font-size: 3vh;
+    }
+    
+    .section33_device_info h2 span {
+        font-size: 2vh;
+    }
+    
+    .section33_device_info p {
+        font-size: 1.5vh;
+    }
+}

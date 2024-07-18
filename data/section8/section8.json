@@ -1,0 +1,89 @@
+{
+    "sliders": [
+        {
+            "name": "型号2015-1",
+            "category": "隐形衬布",
+            "url_a": "./product.html#隐形衬布",
+            "img":  "pic/data/p1/1.jpg",
+            "description": ">隐形衬布"
+        },
+        {
+            "name": "型号2015",
+            "category": "隐形衬布",
+            "url_a": "./product.html#隐形衬布",
+            "img":  "pic/data/p1/2.jpg",
+            "description": ">隐形衬布"
+        },
+        {
+            "name": "型号FB30",
+            "category": "树脂衬布",
+            "url_a": "./product.html#树脂衬布",
+            "img":  "pic/data/p2/1.jpg",
+            "description": ">树脂衬布"
+        },
+        {
+            "name": "型号FB31",
+            "category": "树脂衬布",
+            "url_a": "./product.html#树脂衬布",
+            "img":  "pic/data/p2/6.jpg",
+            "description": ">树脂衬布"
+        },
+        {
+            "name": "型号FB50",
+            "category": "树脂衬布",
+            "url_a": "./product.html#树脂衬布",
+            "img":   "pic/data/p2/2.jpg",
+            "description": ">树脂衬布"
+        },
+        {
+            "name": "型号FB51",
+            "category": "树脂衬布",
+            "url_a": "./product.html#树脂衬布",
+            "img":  "pic/data/p2/7.jpg",
+            "description": ">树脂衬布"
+        },
+        {
+            "name": "型号6530",
+            "category": "弹力衬布",
+            "url_a": "./product.html#弹力衬布",
+            "img":  "pic/data/p3/1.jpg",
+            "description": ">弹力衬布"
+        },
+        {
+            "name": "型号6531",
+            "category": "弹力衬布",
+            "url_a": "./product.html#弹力衬布",
+            "img":  "pic/data/p3/6.jpg",
+            "description": ">弹力衬布"
+        },
+        {
+            "name": "型号6550",
+            "category": "弹力衬布",
+            "url_a": "./product.html#弹力衬布",
+            "img":   "pic/data/p3/2.jpg",
+            "description": ">弹力衬布"
+        },
+        {
+            "name": "型号6551",
+            "category": "弹力衬布",
+            "url_a": "./product.html#弹力衬布",
+            "img":  "pic/data/p3/7.jpg",
+            "description": ">弹力衬布"
+        },
+        {
+            "name": "型号3040",
+            "category": "针织衬布",
+            "url_a": "./product.html#针织衬布",
+            "img":   "pic/data/p4/1.jpg",
+            "description": ">针织衬布"
+        },
+        {
+            "name": "型号3041",
+            "category": "针织衬布",
+            "url_a": "./product.html#针织衬布",
+            "img":  "pic/data/p4/2.jpg",
+            "description": ">针织衬布"
+        }
+
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "无纺衬布": [
+        {
+            "ID": 1,
+            "name": "白色",
+            "price":100,
+            "img": "pic/data/p5/1.jpg",
+            "description": "型号2530",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "白色",
+            "price":100,
+            "img": "pic/data/p5/2.jpg",
+            "description": "型号2540",
+            "detailed_info": ""
+        },
+        {
+            "ID": 3,
+            "name": "白色",
+            "price":100,
+            "img": "pic/data/p5/3.jpg",
+            "description": "型号2550",
+            "detailed_info": ""
+        },
+        {
+            "ID": 4,
+            "name": "黑色",
+            "price":100,
+            "img": "pic/data/p5/4.jpg",
+            "description": "型号2531",
+            "detailed_info": ""
+        },
+        {
+            "ID": 5,
+            "name": "黑色",
+            "price":100,
+            "img": "pic/data/p5/5.jpg",
+            "description": "型号2541",
+            "detailed_info": ""
+        },
+        {
+            "ID": 6,
+            "name": "黑色",
+            "price":100,
+            "img": "pic/data/p5/6.jpg",
+            "description": "型号2551",
+            "detailed_info": ""
+        }
+
+    ]
+}

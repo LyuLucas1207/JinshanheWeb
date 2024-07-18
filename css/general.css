@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'YouSheYuFeiTeJianKangTi';
+    src: url('../font/YouSheYuFeiTeJianKangTi-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HongLeiXingShuJianTi';
+    src: url('../font/HongLeiXingShuJianTi-2.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SmileySans-Oblique';
+    src: url('../font/SmileySans-Oblique-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'AlimamaFangYuanTiVF-Thin';
+    src: url('../font/AlimamaFangYuanTiVF-Thin-2.ttf') format('truetype');
+    font-weight: 100;
+    /* Assuming Thin corresponds to font-weight 100 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaoKenWangXingYuan';
+    src: url('../font/MaoKenWangXingYuan-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*::selection {
+    background: #fff700;
+    color: black;
+}
+
+.index {
+    padding: 0;
+    margin: 0;
+    /* background: linear-gradient(0deg, #ded8c0, #fffee0); */
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+* {
+    font-family: 'YouSheYuFeiTeJianKangTi';
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    /* 隐藏水平滚动 */
+    /* scroll-behavior: smooth; */
+    /* 隐藏溢出内容的滚动条 */
+
+}
+
+body {
+    /* 其他样式 */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari and Opera */
+}
+
+#彩色衬布{
+    background-image: linear-gradient(0deg, red, orange, yellow, green, blue, purple);
+    color: transparent;
+    /*set all background-clip to fit all browsers*/
+    -webkit-background-clip: text;
+    background-clip: text;
+}

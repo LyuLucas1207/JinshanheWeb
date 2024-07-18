@@ -1,0 +1,152 @@
+.section11 {
+    /* margin: 5%; */
+    margin-left: 8%;
+    margin-right: 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section11_info-container {
+    width: 100%;
+    margin: 2vh auto;
+    background-color: #fff;
+
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+}
+
+.section11_info-container h1 {
+    font-size: 2.2vh;/*for chinese browser*/
+    font-size: calc(1vw + 2vh);
+}
+
+.section11_info-container p {
+    font-size: 1.6vh;/*for chinese browser*/
+    font-size: calc(0.5vw + 1.5vh);
+    color: #464343;
+    margin: 1vh 0;
+}
+
+
+.section11_info p {
+    padding: 0 2vh;
+    font-size: 1.4vh;
+    font-size: calc(0.5vw + 1.3vh);
+    line-height: 1.6;
+    border-bottom: 1px solid #000000;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+
+.section11_info p:hover {
+    color: #000;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    font-size: 2vh;
+}
+
+.section11_info p a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: #464343;
+}
+
+.section11_modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.section11_modal::-webkit-scrollbar {
+    display: none;
+}
+
+.section11_modal-content {
+    
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 4vh;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 50vh;
+    transform: translate(0%, 8vh);/*for chinese browser*/
+    transform: translate(0%, calc(-50% + 40vh - 10vw));
+    border-radius: 2vh;
+    box-shadow: #fff 0 0 1vh 0.5vh;
+    
+}
+
+.section11_close {
+    color: #676666;
+    float: right;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.section11_modal-content h2 {
+    font-size: 2.5vh;
+    margin: 2vh 0;
+}
+
+.section11_modal-content h3 {
+    font-size: 2vh;
+    margin: 0;
+}
+
+.section11_modal-content p {
+    font-size: 1.6vh;
+    line-height: 1.6;
+    margin: 1vh 0;
+}
+
+.section11_modal-content p:last-child {
+    margin-bottom: 5vw;
+}
+
+.section11_close:hover,
+.section11_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale3d(1.2,1.2,1.2);
+}
+
+.section11_modal-content img {
+    
+    width: 100%;
+    height: auto;
+}
+
+.section11_modal-content ul {
+    padding-left: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0;
+}
+
+.section11_modal-content ul li {
+    margin: 0, 0, 0, 0;/*top, right, bottom, left*/
+    padding: 0, 0, 0, 0;/*top, right, bottom, left*/
+    line-height: 1.7vh;
+    font-size: 1.5vh;
+}
+
+.section11_modal-content ul:last-child {
+    margin-bottom: 2vw;
+}

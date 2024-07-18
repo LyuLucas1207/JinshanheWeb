@@ -1,0 +1,182 @@
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+    background-color: rgb(255, 255, 255);
+  }
+
+  @keyframes out_from_bottom {
+    0% {
+        opacity: 1;
+        /* transform: translateY(0); */
+    }
+    100% {
+        opacity: 0;
+        /* transform: translateY(100vh); */
+    }
+  }
+  
+  .cloud {
+    overflow: hidden;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .cloud {
+        height: 5vh;
+    }
+  }
+  
+  .cloud_left {
+    position: relative;
+    background-color: #234;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    left: 1vw;
+  }
+  
+  .cloud_right {
+    position: relative;
+    background-color: #203040;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    top: 1.5vw;
+    right: 1vw;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .cloud_left {
+        width: 10vh;
+        height: 10vh;
+        left: 1vh;
+    }
+    .cloud_right {
+        width: 7vh;
+        height: 7vh;
+        top: 1.5vh;
+        right: 1vh;
+    }
+  }
+  
+  .rain {
+    width: 15vw;
+    height: 14vw;
+    overflow-y: hidden;
+    position: relative;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-y: hidden;
+  }
+
+  .rain::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .rain {
+        width: 15vh;
+        height: 14vh;
+    }
+  }
+  
+  .drop {
+    position: absolute;
+    width: 0.2vw;
+    background: #789;
+    animation: rain_401 0.8s infinite ease-out;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .drop {
+        width: 0.2vh;
+    }
+  }
+  
+  @keyframes rain_401 {
+    0% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      opacity: 0.2;
+      transform: translate(0, 10vw);
+    }
+  }
+
+    @media screen and (max-width: 1000px) {
+        @keyframes rain_401 {
+            0% {
+            opacity: 1;
+            transform: translate(0, 0);
+            }
+        
+            100% {
+            opacity: 0.2;
+            transform: translate(0, 8vh);
+            }
+        }
+    }
+  .surface {
+    width: 15vw;
+    height: 2vw;
+    top : -3vw;
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .surface::-webkit-scrollbar {
+    display: none;
+}
+
+
+    @media screen and (max-width: 1000px) {
+        .surface {
+            width: 15vh;
+            height: 2vh;
+            top : -3vh;
+        }
+    }
+  
+  .hit {
+    position: absolute;
+    width: 0.3vw;
+    height: 0.1vw;
+    bottom: 1vw;
+    border: 1px solid #456;
+    border-radius: 50%;
+    animation: hit_401 0.8s infinite ease;
+ 
+  }
+
+  @media screen and (max-width: 1000px) {
+    .hit {
+        width: 0.3vh;
+        height: 0.1vh;
+        bottom: 1vh;
+    }
+  }
+  
+  @keyframes hit_401 {
+    0% {
+      opacity: 0.75;
+      transform: scale(1);
+    }
+  
+    100% {
+      opacity: 0;
+      transform: scale(2.5);
+    }
+  }

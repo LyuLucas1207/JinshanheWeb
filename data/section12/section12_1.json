@@ -1,0 +1,20 @@
+{
+    "隐形衬布": [
+        {
+            "ID": 1,
+            "name": "黑色",
+            "price":100,
+            "img": "pic/data/p1/1.jpg",
+            "description": "型号2015-1",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "白色",
+            "price": 200,
+            "img": "pic/data/p1/2.jpg",
+            "description": "型号2015",
+            "detailed_info": ""
+        }
+    ]
+}

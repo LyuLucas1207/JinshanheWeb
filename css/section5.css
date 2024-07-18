@@ -1,0 +1,200 @@
+.section5 {
+    margin: 0;
+    padding: 0.5vw;
+    padding-left: 7vw;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100vw;
+    min-height: 4vh;
+}
+
+.section5_nav {
+    width: 100vw;
+    /* background: rgba(255, 255, 255, 0.978); */
+    display: flex;
+}
+
+.section5_logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15vh;
+    height: 10vh;
+    background-image: url('../pic/icon/jh-color.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.section5_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.section5_items {
+    width: 8.4vw;
+    font-size: 2vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 4vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section5_items a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    /* remove the background */
+    color: rgba(0, 0, 0, 1);
+    font-size: 2vh;
+    z-index: 11;
+
+}
+
+.section5_items :hover {
+    color: #000;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    font-size: 2.4vh;
+}
+
+.section5_block1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 5.9vw;
+    margin-right: 10vw;
+    margin-left: auto;
+    font-size: 2vh;
+    text-align: center;
+    justify-content: center;
+    line-height: 4vh;
+    border-radius: 3vw;
+    border: 1px solid black;
+    background-color: rgba(13, 13, 13, 0.979);
+}
+
+.section5_block1 a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    /* remove the border */
+    outline: none;
+    /* remove the outline */
+    background: none;
+    /* remove the background */
+    color: rgb(220, 220, 220);
+}
+
+.section5_items:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 3vw;
+}
+
+.section5_items:hover a {
+    color: rgb(238, 238, 238);
+}
+
+.section5_block1:hover {
+    cursor: pointer;
+    background-color: rgb(249, 251, 252);
+    border: 1px solid rgb(249, 251, 252);
+}
+
+.section5_block1:hover a {
+    color: rgb(0, 0, 0);
+}
+
+
+.section5_nav .section5_items {
+    position: relative;
+    /* Needed to position the dropdown relative to the menu item */
+}
+
+
+
+.section5_dropdown {
+    display: block;
+    /* Needed to allow transformations */
+    position: absolute;
+    /* Position it right below the menu item */
+    background-color: rgb(0, 0, 0);
+    /* Background color for the dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds a shadow to the dropdown */
+    width: 100%;
+    /* Set the width of the dropdown menu */
+    overflow: hidden;
+    /* Hide overflow content */
+    max-height: 0;
+    /* Initial state with no content shown */
+    transition: max-height 0.01s ease-in-out;
+    /* Smooth transition for max-height */
+    z-index: 1;
+    /* Ensures the dropdown is on top of other content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 3vw; */
+    border-radius: 1vh;
+}
+
+
+.section5_dropdown a {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    /* Color of dropdown links */
+    padding: 1vh 1vh;
+    /* Padding for dropdown items */
+    text-decoration: none;
+    /* No underline on links */
+    display: block;
+    /* Makes each link take full width of the dropdown */
+    /* white-space: nowrap; Prevent text wrapping */
+    border-radius: 1vh;
+    z-index: 1111;
+}
+
+.section5_dropdown a:hover {
+    background-color: #f1f1f1;
+    /* Background color for hovering on dropdown items */
+    color: rgb(0, 0, 0);
+}
+
+
+.section5_nav .section5_items:hover .section5_dropdown {
+    max-height: 100vh;
+    /* Adjust max-height according to the content size or use 'max-height: none' for automatic height adjustment */
+}
+
+@media screen and (max-width: 1100px) {
+    .section5_nav .section5_items>a {
+        /*vertical text*/
+        font-size: 2vh;
+        writing-mode: vertical-rl;
+
+    }
+
+    .section5_nav .section5_items:hover .section5_dropdown {
+        display: block;
+        width: max-content;
+        /*transform move to left*/
+        transform: translateX(-30%);
+    }
+
+    .section5_nav .section5_items:hover .section5_dropdown>a {
+        font-size: 2vh;
+        width: 30vw;
+    }
+}

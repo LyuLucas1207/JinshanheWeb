@@ -1,0 +1,29 @@
+{
+    "针织衬布": [
+        {
+            "ID": 1,
+            "name": "白色",
+            "price":100,
+            "img": "pic/data/p4/1.jpg",
+            "description": "型号3040",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "黑色",
+            "price": 200,
+            "img": "pic/data/p4/2.jpg",
+            "description": "型号3041",
+            "detailed_info": ""
+        },
+        {
+            "ID": 2,
+            "name": "黑色",
+            "price": 200,
+            "img": "pic/data/p4/3.jpg",
+            "description": "型号A151",
+            "detailed_info": "黑胶点"
+        }
+
+    ]
+}
