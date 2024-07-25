@@ -18,12 +18,25 @@ const fn12 = () =>tool.productCard_section33();
 
 
 function wrappedFunctions(...fns) {
+    fns = fns.map(fn => {
+        return async () => {
+            await fn();
+        }
+    });
     return fns;
 }
 
 // Function to add tasks to the microtask queue and wait for all to complete
 function addMicrotask(fns) {
-    return Promise.all(fns.map(fn => fn()));
+    return new Promise((resolve) => {
+        fns.forEach(fn => {
+            queueMicrotask(fn);
+        });
+        queueMicrotask(resolve);
+    }); //如果你需要函数几乎同时开始并快速连续执行，且不需要处理函数返回的异步结果，使用 queueMicrotask。
+
+    // return Promise.all(fns.map(fn => fn())); //如果你需要并行执行多个异步函数，并处理它们的完成或失败状态，使用 Promise.all。
+    // return fns.reduce((promise, fn) => promise.then(() => fn()), Promise.resolve());//如果函数执行有严格的顺序要求，需要前一个完成后才能开始下一个，使用 Promise 链方法。
 }
 
 
