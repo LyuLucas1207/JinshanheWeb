@@ -1,20 +1,39 @@
 import * as tool from './functionTools.js';
 import * as appear from './appearingTools.js';
 
+const fn0 = () =>tool.initializeLoader(20, 30, 20, 30);
+const fn1 = () =>tool.createDropdown_section5();
+const fn2 = () =>tool.sliderHorizon_section8();
+const fn3 = () =>tool.profileCard_section9();
+const fn4 = () =>tool.questionAsking_section11();
+const fn5 = () =>tool.productCard_section12();
+const fn6 = () =>tool.locationCard_section15();
+const fn7 = () =>tool.blogHeader_section17();
+const fn8 = () =>tool.imageHorizontalSlider_section19();
+const fn9 = () =>tool.newsCard_section26();
+const fn10 = () =>tool.profileCard_section31();
+const fn11 = () =>tool.clockHistory_section32(10);
+const fn12 = () =>tool.productCard_section33();
+
+
+
+function wrappedFunctions(...fns) {
+    return fns;
+}
+
+// Function to add tasks to the microtask queue and wait for all to complete
+function addMicrotask(fns) {
+    return Promise.all(fns.map(fn => fn()));
+}
+
+
 document.addEventListener('DOMContentLoaded', async function () {
-    tool.initializeLoader(20, 30,20, 30);
-    tool.createDropdown_section5(),
-    tool.sliderHorizon_section8(),
-    tool.profileCard_section9(),
-    tool.questionAsking_section11(),
-    tool.productCard_section12(),
-    tool.locationCard_section15(),
-    tool.blogHeader_section17(),
-    tool.imageHorizontalSlider_section19(),
-    tool.newsCard_section26(),
-    tool.profileCard_section31(),
-    tool.clockHistory_section32(10),
-    tool.productCard_section33()
+
+    const tasks = wrappedFunctions(fn0, fn1, fn2, fn3, fn4, fn5, fn6, fn7, fn8, fn9, fn10, fn11, fn12);
+    await addMicrotask(tasks);
+
+
+
     const minLoadTime = tool.minLoadTime(1); // 5 seconds minimum load time
     const resourcesLoaded = tool.checkResourcesLoaded();
     await Promise.all([minLoadTime, resourcesLoaded]);
